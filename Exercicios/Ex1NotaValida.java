@@ -4,9 +4,8 @@ public class Ex1NotaValida {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        
         boolean notaValida;
-        
+
         do {
             System.out.println("Digite uma nota entre 0 e 10");
             int nota = sc.nextInt();
